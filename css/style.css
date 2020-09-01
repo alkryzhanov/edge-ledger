@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+}
+a {
+  text-decoration: none;
+}
+/* Utility class */
+.container {
+overflow: hidden;
+
+max-width: 1100px;
+margin: auto;
+padding: 0 2rem;
+
+}
+ .text-primary {
+  color: #93cb52;
+}
+.l-leading {
+  margin-bottom: 0.75rem;
+
+  font-size: 4rem;
+  line-height: 1.1;
+}
+.m-leading {
+  margin-bottom: 0.75rem;
+
+  font-size: 2rem;
+  line-height: 1.1;
+}
+.lead {
+  margin-bottom: 2rem;
+
+  font-size: 1.3rem;
+
+}
+.text-center {
+  text-align: center;
+}
+.py-1 {
+  padding: 1.5rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+.btn {
+  display: inline-block;
+
+  padding: 0.5rem 2rem;
+
+  color: #fff;
+  border: none;
+  border-right: 5px;
+  background: #93cb52;
+}
+.btn:hover{
+  background: #7ab436;
+}
+.btn-dark {
+  background: #333;
+}
+
+#navbar {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1rem;
+
+  color: #fff;
+  background: #333;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+
+  list-style: none;
+}
+#navbar ul li a{
+  margin: 0 0.25rem;
+  padding: 0.75rem;
+
+  color: #fff;
+}
+
+#navbar ul li a:hover {
+  border-radius: 5px;
+  background: #93cb52;
+}
+
+/* SHOWCASE */
+
+#showcase {
+  height: 100vh;
+
+  color: #fff;
+  background: #333 url('../img/showcase.jpg') no-repeat center center/cover;
+}
+
+#showcase .showcase-content {
+/* Overlay */
+  position: absolute;
+  top: 60px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 100%;
+  padding: 0 2rem;
+
+  text-align: center;
+
+  background-color: rgba(0,0,0, 0.4);
+}
+
+/* WHAT section
+ */
+
+#what .items {
+   display: flex;
+ }
+
+#what .items .item {
+  flex: 1 1 0;
+
+  padding: 1rem;
+
+  text-align: center;
+
+ }
+#what .items .item i{
+  margin-bottom: 1rem;
+  padding: 1rem;
+
+  border-radius: 50%;
+  background: #93cb52;
+}
