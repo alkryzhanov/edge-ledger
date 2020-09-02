@@ -1,1 +1,71 @@
+#what .items {
+  display: block;
 
+  padding: 1rem;
+}
+/* Align icon to left  */
+#what .items .item {
+  display: flex;
+
+  text-align: left;
+}
+/* Position icon  */
+#what .items .item i{
+  align-self: center;
+
+  margin-right: 1.3rem;
+  margin-bottom: 0;
+}
+
+/* Smartphones */
+
+@media (max-width: 500px) {
+  #navbar{
+    align-items: center;
+    flex-direction: column;
+  }
+  #navbar .logo{
+    margin-bottom: 1.75rem;
+
+    text-align: center;
+  }
+  #navbr ul {
+    padding: 0.5rem;
+  }
+  #showcase .showcase-content {
+    top: 116px;
+  }
+  #who {
+    display: block;
+  }
+  #who .who-img {
+    display: none;
+}
+  #clients .items img {
+    width: 80%;
+  }
+  #clients .items div:last-child{
+    display: none;
+  }
+  #contact {
+    flex-direction: column;
+  }
+  #contact .map{
+    height: 200px;
+
+    border-top: 4px solid #333;
+  }
+}
+@media (max-height: 568px) {
+  #showcase .showcase-content {
+    top: 140px;
+
+    margin-top: -2rem;
+  }
+  .l-heading {
+    font-size: 3rem;
+  }
+  .lead {
+    font-size: 1rem;
+  }
+}
