@@ -22,6 +22,18 @@ padding: 0 2rem;
  .text-primary {
   color: #93cb52;
 }
+ .bg-light {
+  color: #333;
+  background: #f4f4f4;
+}
+ .bg-dark {
+  color: #fff;
+  background: #333;
+}
+.bg-primary {
+  color: #fff;
+  background: #93cb52;
+}
 .l-leading {
   margin-bottom: 0.75rem;
 
@@ -40,6 +52,7 @@ padding: 0 2rem;
   font-size: 1.3rem;
 
 }
+
 .text-center {
   text-align: center;
 }
@@ -52,6 +65,16 @@ padding: 0 2rem;
 .py-3 {
   padding: 3rem 0;
 }
+.p-1 {
+  padding: 1.5rem ;
+}
+.p-2 {
+  padding: 2rem ;
+}
+.p-3 {
+  padding: 3rem ;
+}
+
 .btn {
   display: inline-block;
 
@@ -67,6 +90,18 @@ padding: 0 2rem;
 }
 .btn-dark {
   background: #333;
+}
+
+.list {
+  margin: 0.5rem 0;
+
+  list-style: none;
+}
+
+.list li{
+  margin: 0.5rem 0;
+
+  border-bottom: 1px dotted #444;
 }
 
 #navbar {
@@ -113,7 +148,7 @@ padding: 0 2rem;
 #showcase .showcase-content {
 /* Overlay */
   position: absolute;
-  top: 60px;
+  top: 65px;
   right: 0;
   bottom: 0;
   left: 0;
@@ -152,4 +187,51 @@ padding: 0 2rem;
 
   border-radius: 50%;
   background: #93cb52;
+}
+
+/* WHO WE ARE section */
+#who {
+  display: flex;
+}
+
+#who div {
+  flex: 1 1 0;
+}
+
+#who .who-img {
+  background: url('../img/people.jpg') no-repeat center center/cover;
+}
+
+/* CLIENTS section */
+#clients .items {
+  display: flex;
+}
+
+#clients .items img {
+  display: block;
+
+  width: 60%;
+  margin: auto;
+}
+
+/* CONTACTS section */
+#contact {
+  display: flex;
+}
+#contact #map,
+#contact .contact-form {
+  flex: 1;
+}
+
+#contact .contact-form .form-group{
+  margin: 0 0.75rem;
+}
+#contact .contact-form label{
+  display: block;
+}
+#contact .contact-form input,
+#contact .contact-form textarea
+{
+  width: 100%;
+  padding: 0.5rem;
 }
